@@ -3,3 +3,18 @@ come dither
 Sometimes less is more
 
 link : https://cybersecure-x-dit.chals.io/ 
+
+SOLUTION:
+This challenge involves image dithering techniques to reveal hidden flags.
+Use the provided ctf_dither_solver.py script to solve:
+
+python3 ctf_dither_solver.py https://cybersecure-x-dit.chals.io/
+
+The script will download the image and apply various dithering techniques:
+- Threshold dithering (multiple threshold values)
+- Floyd-Steinberg error diffusion dithering  
+- Bit plane extraction (0-7)
+- Color quantization (for RGB images)
+
+Look for flag patterns in the generated images in the results/ folder.
+The hint "Sometimes less is more" refers to reducing color depth/information.

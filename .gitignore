@@ -1,0 +1,28 @@
+# CTF Challenge Results and Artifacts
+result_*.png
+results/*.png
+test_*.png
+challenge_image.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
